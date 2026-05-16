@@ -20,10 +20,10 @@ func main() {
 		kesempatan = 5
 	case "sedang":
 		target = rand.Intn(50) + 1
-		kesempatan = 7
+		kesempatan = 10
 	case "sulit":
 		target = rand.Intn(100) + 1
-		kesempatan = 10
+		kesempatan = 15
 	default:
 		fmt.Println("Level tidak valid. Pilih antara mudah, sedang, atau sulit.")
 		return
@@ -44,3 +44,4 @@ func main() {
 		}
 	}
 }
+
